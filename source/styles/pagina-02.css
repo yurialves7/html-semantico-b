@@ -1,3 +1,44 @@
+
+.box-content-box{
+    width: 200px;
+    height: 100px;
+
+    padding: 20px;
+
+    border: 5px solid black;
+
+    border-radius: 25px;
+
+
+    box-sizing: content-box;
+    background-color: rgb(1, 162, 157);
+}
+
+.box-border-box{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 35px 10px;
+    box-sizing: border-box;
+    background-color: rgb(110, 201, 199);
+    margin: 0 0 0 254px;
+}
+
+.container{
+    box-sizing: content-box;
+}
+
+.box-inherit{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 500px;
+    box-sizing: inherit;
+    background-color: rgb(243, 182, 207);
+}
+
 h1 {
         color: black;
         font-size: 22px; 
@@ -16,6 +57,7 @@ h1 {
     .box01{
         border-radius: 25px;
         background-color: rgb(1, 162, 157);
+        text-align: center;
         width: 500px;
         height: 120px;
         
