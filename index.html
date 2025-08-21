@@ -8,20 +8,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- título da página (guia do navegador)-->
     <title>HTML Semântico v1.0</title>
+    
 </head>
+ 
 <body>
-    <!-- Criar divisões(container) na página -->
-
-    <!-- Cabeçalho da página-->
-     <!-- menu de navegação-->
-     <header>
+    <header>
         <nav>
-        <a href="./index.html"><span>Home</span>
+        <a href="./index.html"><span>Home</span></a>
         <a href="./pages/pagina-01.html"><span>Página 01</span></a>
         <a href="./pages/pagina-02.html"><span>Página 02</span></a>
 
         </nav>
      </header>
+    <style>
+        h1 {
+        color: black;
+        font-size: 22px; 
+        border-radius: 0px;
+        background-color: rgb(54, 59, 116); 
+        display: inline; 
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    body{
+
+        background-color: rgb(103, 56, 136);
+    }
+    
+    .box01{
+        border-radius: 25px;
+        background-color: rgb(239, 79, 145);
+        width: 500px;
+        height: 120px;
+        
+
+    }
+
+    .box02{
+        border-radius: 25px;
+        background-color: rgb(199, 157, 215); 
+        width: 500px;
+        height: 120px; 
+        
+        
+
+    }
+
+   
+
+    p{
+        color: black;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .caixa03{
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .caixa04{
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    </style>
+    <!-- Criar divisões(container) na página -->
+
+    <!-- Cabeçalho da página-->
+     <!-- menu de navegação-->
+    
 
      
       
@@ -30,24 +88,29 @@
         
         <!--digitar "lorem" para aparecer texto-->
         <h1 style="color: deeppink;">Lorem ipsum.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste officiis distinctio quis, nesciunt eius ab et tenetur maxime beatae similique. A repudiandae, perspiciatis minus iste ullam adipisci sed eum provident.
-        Ad labore hic qui et incidunt commodi vel, distinctio, optio provident sint laborum quibusdam velit. Eos qui blanditiis vitae voluptatum est, veniam deserunt magnam cupiditate. Reiciendis vel molestiae sit reprehenderit!
-        Repellat fugiat architecto accusamus voluptatum asperiores! Repellendus vero dolorum debitis possimus? Dignissimos magni perferendis illum distinctio facere sunt doloribus vel, quidem dolor animi. Quas illo veniam provident maxime voluptates incidunt.</p>
-        <h2 style="color: cornflowerblue;">Repellat</h2>
-        <p2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ducimus enim praesentium repellendus at molestiae, ipsum odio accusantium eum tenetur quae eos, odit ratione?</p2>
+        <div class="box01">
         
-     
-    
-    <!-- imagens-->
-    
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste officiis distinctio quis, nesciunt eius ab et tenetur maxime beatae similique. A repudiandae, perspiciatis minus iste ullam adipisci sed eum provident.
+        </p>
+        <!-- imagens-->
+        </div>
         <!-- ./ significa listar o conteudo da pasta atual | / lista o conteudo da pasta principal(raiz)-->
          <!-- para colocar a altura e largura pode ser tambem: style="width: 200px; ;height: 200px;-->
-        <img src="./img/pexels-korie-jenkins-105198345-9501140.jpg" alt="Gotas de agua" width="300" ">
-        <img src="https://images.pexels.com/photos/5879014/pexels-photo-5879014.jpeg" alt="gotas de agua" width="300">
+        
+        
+        <h2 style="color: cornflowerblue;">Repellat</h2>
+        <div class="box02"
+
+        
+        <p2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ducimus enim praesentium repellendus at molestiae</p2>
+        </div>
+     
+    
+    
     
      </main>
     <footer>
-        <p>rodapé</p>
+        
     </footer>
     
 </body>

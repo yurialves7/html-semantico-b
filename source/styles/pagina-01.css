@@ -1,0 +1,74 @@
+
+   
+
+
+
+    h1 {
+        color: black;
+        font-size: 22px; 
+        border-radius: 0px;
+        background-color: rgb(240, 67, 140); 
+        display: inline; 
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    body{
+
+        background-color: rgb(249, 184, 210);
+    }
+    
+    .box01{
+        border-radius: 25px;
+        background-color: rgb(134, 216, 247);
+        width: 500px;
+        height: 120px;
+        
+
+    }
+
+    .box02{
+        border-radius: 25px;
+        background-color: rgb(254, 251, 177); 
+        width: 500px;
+        height: 120px; 
+        
+        
+
+    }
+
+   
+
+    p{
+        color: black;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .caixa03{
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .caixa04{
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    
+
+    
+
+
+    
+ 
+    
+
+    
+
+   
+
+
+
