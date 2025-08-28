@@ -12,16 +12,6 @@
 </head>
  
 <body>
-    <header>
-        <nav>
-        <a href="./index.html"><span>Twilight Sparkle</span></a>
-        <a href="./pages/pagina-01.html"><span>Pinkie Pie</span></a>
-        <a href="./pages/pagina-02.html"><span>Fluttershy</span></a>
-        <a href="./pages/pagina-03.html"><span>Rarity</span></a>
-        <a href="./pages/pagina-03.html"><span>Apple Jack</span></a>
-
-        </nav>
-     </header>
     <style>
         h1 {
         color: black;
@@ -45,6 +35,7 @@
         text-align: center;
         width: 500px;
         height: 120px;
+        margin-top: 9px;
         
 
     }
@@ -56,7 +47,7 @@
         text-align: center;
         width: 500px;
         height: 120px; 
-        
+        margin-top: 9px;
         
 
     }
@@ -77,7 +68,46 @@
         display: inline;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+    .container-header{
+    background-color: rgb(54, 59, 116);
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 10vh;
+    border-radius: 15px;
+}
+
+.container-header__menu a{
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    text-decoration: none;
+    height: 19px;
+    width: 122px;
+    background-color: rgb(106, 110, 167) ;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+
+.container-header__menu {
+    font-size: 15px;
+    border: 3px;
+    margin-top: -5px;
+}
     </style>
+    <header class="container-header">
+        <h1>Menu</h1>
+        <nav class="container-header__menu">
+        <a href="./index.html"><span>Twilight Sparkle</span></a>
+        <a href="./pages/pagina-01.html"><span>Pinkie Pie</span></a>
+        <a href="./pages/pagina-02.html"><span>Fluttershy</span></a>
+        <a href="./pages/pagina-03.html"><span>Rarity</span></a>
+        <a href="./pages/pagina-04.html"><span>Apple Jack</span></a>
+        <a href="./pages/pagina-05.html"><span>Rainbow Dash</span></a>
+
+        </nav>
+     </header>
+    
     <!-- Criar divisões(container) na página -->
 
     <!-- Cabeçalho da página-->
@@ -90,7 +120,7 @@
       <main>
         
         <!--digitar "lorem" para aparecer texto-->
-        <h1 style="color: deeppink;">Lorem ipsum.</h1>
+        
         <div class="box01">
         
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste officiis distinctio quis, nesciunt eius ab et tenetur maxime beatae similique. A repudiandae, perspiciatis minus iste ullam adipisci sed eum provident.
@@ -101,7 +131,7 @@
          <!-- para colocar a altura e largura pode ser tambem: style="width: 200px; ;height: 200px;-->
         
         
-        <h2 style="color: deeppink;">Repellat</h2>
+        
         <div class="box02">
 
         
